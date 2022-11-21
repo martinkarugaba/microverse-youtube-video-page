@@ -1,0 +1,23 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "- This is a clone of the youtube video page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinkarugaba/microverse-youtube-video-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinkarugaba/microverse-youtube-video-page/issues"
+  },
+  "homepage": "https://github.com/martinkarugaba/microverse-youtube-video-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
