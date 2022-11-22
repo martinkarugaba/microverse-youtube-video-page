@@ -34,23 +34,35 @@
           ><span class="text-white">YouTube</span><span>UG</span>
         </div>
       </div>
-      <!--* form -->
-      <div class="flex w-1/2 bg-red-600 rounded-3xl overflow-hidden">
-        <div class="w-full">
-          <input type="text" class="py-2 px-4 w-[85%]" placeholder="Search" />
-          <i class="fa-thin fa-magnifying-glass"></i>
+      <!--* form-container -->
+      <section class="flex w-1/2">
+        <!--* form -->
+        <div
+          class="w-[90%] h-full bg-red-600 rounded-3xl overflow-hidden flex justify-between items-center"
+        >
+          <input
+            type="text"
+            class="py-2 px-4 inline-flex w-[85%]"
+            placeholder="Search"
+          />
+          <!-- * search icon -->
+          <span class="bg-amber-500 w-[15%] p-0 h-full flex justify-center items-center">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
         </div>
 
         <!--* mic -->
-        <div class="">
-          <i class="fa-solid fa-circle-microphone"></i>
+        <div
+          class="bg-lime-500 w-10 h-10 rounded-full flex justify-center items-center ml-4"
+        >
+          <i class="fa-solid fa-microphone"></i>
         </div>
-      </div>
+      </section>
       <!-- account -->
       <div class="">
-        <i class="fa-light fa-video-plus"></i>
-        <i class="fa-light fa-bell"></i>
-        <i class="fa-light fa-user"></i>
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-user"></i>
       </div>
     </nav>
   </body>
