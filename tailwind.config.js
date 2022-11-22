@@ -4,10 +4,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#FF6363',
+        'youtube-red': '#FF0000',
       },
       width: {
         'w-95': '95%',
+      },
+      fontSize: {
+        20: '20px',
+        22: '22px',
+        24: '24px',
+      },
+      fontFamily: {
+        logo: ['Roboto Condensed', 'sans-serif'],
       },
     },
   },
