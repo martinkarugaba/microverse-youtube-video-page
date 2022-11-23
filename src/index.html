@@ -21,55 +21,88 @@
   </head>
   <body>
     <nav
-      class="bg-slate-200 flex justify-between items-center px-10 py-2"
+      class="bg-slate-50 flex justify-between items-center px-10 py-2"
     >
       <div class="flex justify-center items-center">
         <!--* hamburger -->
-        <div class="flex justify-center items-center">
-          <i class="fa-sharp fa-solid fa-bars text-xl"></i>
+        <div class="flex justify-center items-center cursor-pointer">
+          <img
+            src="./img/menu-bar.png"
+            class="w-6 h-6"
+            alt="menu bar"
+          />
+          <!--<i class="fa-sharp fa-solid fa-bars text-xl"></i>-->
         </div>
-        <!--* logo -->
-        <div class="flex justify-between items-center ml-6">
+        <!--* youtube logo -->
+        <div
+          class="flex justify-between items-center ml-6 cursor-pointer"
+        >
           <i
-            class="fa-brands fa-youtube text-youtube-red text-4xl"
+            class="fa-brands fa-youtube text-youtube-red text-3xl"
           ></i
           ><span
-            class="text-slate-900 font-semibold ml-1 font-logo text-2xl tracking-tighter"
+            class="text-slate-900 font-semibold ml-1 font-logo text-xl tracking-tighter"
             >YouTube</span
-          ><sup class="text-xs mb-3">UG</sup>
+          >
+          <sup class="text-8 mb-3">UG</sup>
         </div>
       </div>
-      <!--* form-container -->
+      <!--* form -->
       <section class="flex w-1/2">
-        <!--* form -->
+        <!--* input container -->
         <div
-          class="w-[90%] h-full bg-red-600 rounded-3xl overflow-hidden flex justify-between items-center"
+          class="w-[90%] bg-slate-100 border border-slate-300 outline-0 h-full rounded-3xl overflow-hidden flex justify-between items-center"
         >
+          <!--* input -->
           <input
             type="text"
-            class="py-2 px-4 inline-flex w-[85%]"
+            class="py-2 px-4 inline-flex w-[88%] rounded-l-3xl border-0 focus:border-0 focus:outline-none focus:border-slate-200"
             placeholder="Search"
           />
           <!-- * search icon -->
           <span
-            class="bg-amber-500 w-[15%] p-0 h-full flex justify-center items-center"
+            class="w-[12%] p-0 h-full flex justify-center items-center cursor-pointer"
           >
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <img
+              src="./img/loupe.png"
+              class="h-5 w-5"
+              alt="add video"
+            />
           </span>
         </div>
 
-        <!--* mic -->
+        <!--* microphone -->
         <div
-          class="bg-lime-500 w-10 h-10 rounded-full flex justify-center items-center ml-4"
+          class="bg-slate-100 hover:bg-slate-200 w-10 h-10 rounded-full flex justify-center items-center ml-4 cursor-pointer"
         >
           <i class="fa-solid fa-microphone"></i>
         </div>
       </section>
-      <!-- account -->
-      <div class="w-[10%] border-2 flex justify-between items-center">
-        <i class="fa-solid text-22 fa-video"></i>
-        <i class="fa-solid text-22 fa-bell"></i>
-        <i class="fa-solid text-22 fa-user"></i>
+      <!--* account -->
+      <div class="w-[11%] flex justify-between items-center">
+        <div
+          class="cursor-pointer hover:bg-slate-200 rounded-full h-10 w-10 flex justify-center items-center"
+        >
+          <img
+            src="./img/add-video.png"
+            class="h-5 w-5"
+            alt="add video"
+          />
+        </div>
+        <div
+          class="cursor-pointer hover:bg-slate-200 rounded-full h-10 w-10 flex justify-center items-center"
+        >
+          <img
+            src="./img/notification.png"
+            class="h-5 w-5"
+            alt="add video"
+          />
+        </div>
+        <div
+          class="cursor-pointer hover:bg-slate-200 rounded-full h-10 w-10 flex justify-center items-center"
+        >
+          <img src="./img/user.png" class="h-6 w-6" alt="add video" />
+        </div>
       </div>
     </nav>
   </body>

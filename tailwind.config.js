@@ -10,6 +10,7 @@ module.exports = {
         'w-95': '95%',
       },
       fontSize: {
+        8:"0.5rempx",
         20: '20px',
         22: '22px',
         24: '24px',
