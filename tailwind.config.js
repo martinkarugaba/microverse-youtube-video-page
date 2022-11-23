@@ -17,6 +17,7 @@ module.exports = {
       },
       fontFamily: {
         logo: ['Roboto Condensed', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif']
       },
     },
   },
