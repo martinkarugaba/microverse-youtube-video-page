@@ -835,6 +835,14 @@ video {
        column-gap: 0.25rem;
 }
 
+.gap-y-2{
+  row-gap: 0.5rem;
+}
+
+.self-center{
+  align-self: center;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -980,6 +988,10 @@ video {
 
 .font-medium{
   font-weight: 500;
+}
+
+.font-normal{
+  font-weight: 400;
 }
 
 .tracking-tighter{
