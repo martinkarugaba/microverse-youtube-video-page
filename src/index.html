@@ -101,15 +101,21 @@
         <div
           class="cursor-pointer hover:bg-slate-200 rounded-full h-10 w-10 flex justify-center items-center"
         >
-          <img src="./img/icons/user.png" class="h-6 w-6" alt="add video" />
+          <img
+            src="./img/icons/user.png"
+            class="h-6 w-6"
+            alt="add video"
+          />
         </div>
       </div>
     </nav>
 
     <!-- * main content -->
-    <section class="flex justify-between items-start gap-x-5 pt-0 p-10 ">
+    <section
+      class="flex justify-between items-start gap-x-5 pt-0 p-10"
+    >
       <!-- * Video Player and comments container-->
-      <section class="border-0 border-slate-600 w-[70%]">
+      <section class="border-0 border-slate-600 w-[67%]">
         <!--* video  -->
         <div class="aspect-video w-full">
           <iframe
@@ -124,20 +130,49 @@
         </div>
       </section>
       <!--* Thumbnails container  -->
-      <aside class="border-0 border-slate-600 w-[30%]">
+      <aside class="border-0 border-slate-600 w-[33%]">
         <!--* buttons container  -->
-        <div class="overflow-x-hidden flex flex-nowrap justify-start items-center gap-x-2">
-          <button class="text-sm bg-slate-100 hover:bg-slate-200 py-1.5 px-3 rounded-md">All</button>
-          <button class="text-sm bg-slate-100 hover:bg-slate-200 py-1.5 px-3 rounded-md">From your search</button>
-          <button class="text-sm bg-slate-100 hover:bg-slate-200 py-1.5 px-3 rounded-md">Computers</button>
-          <button class="text-sm bg-slate-100 hover:bg-slate-200 py-1.5 px-3 rounded-md">Planes</button>
+        <div
+          class="overflow-x-hidden flex flex-nowrap justify-start items-center gap-x-2"
+        >
+          <button
+            class="text-sm bg-slate-100 hover:bg-slate-200 py-1.5 px-3 rounded-md"
+          >
+            All
+          </button>
+          <button
+            class="text-sm bg-slate-100 hover:bg-slate-200 py-1.5 px-3 rounded-md"
+          >
+            From your search
+          </button>
+          <button
+            class="text-sm bg-slate-100 hover:bg-slate-200 py-1.5 px-3 rounded-md"
+          >
+            Computers
+          </button>
+          <button
+            class="text-sm bg-slate-100 hover:bg-slate-200 py-1.5 px-3 rounded-md"
+          >
+            Planes
+          </button>
         </div>
         <!--* thumbnails container  -->
-        <section>
-          <!--* thumbnail  -->
-          <div>
-            <div class="video"></div>
-            <div class="video-info"></div>
+        <section class="mt-5">
+          <!--* thumbnail wrapper  -->
+          <div class="flex justify-between items-start gap-x-2">
+            <!--* image -->
+            <div class="h-[100px] w-[45%] rounded-xl overflow-hidden">
+              <img
+                src="./img/thumbnails/austin-distel-goFBjlQiZFU-unsplash.jpg"
+                alt="thumbnail"
+              />
+            </div>
+            <!--* info  -->
+            <div class="w-[55%] flex flex-col justify-start items-start">
+              <h3 class="text-sm font-medium mb-1.5">BEAUTIFUL SPICY CHORDS (everyone should know)</h3>
+              <p class="text-xs text-slate-400 mb-1.5">Paul Davids</p>
+              <p class="text-xs text-slate-500 mb-1.5"><span>80k views</span> . <span>2 years ago</span></p>
+            </div>
           </div>
         </section>
       </aside>
