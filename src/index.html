@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <!-- font-awesome -->
+    <!--* font-awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -15,13 +15,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- title -->
+    <!--* title -->
     <title>Youtube Video Page</title>
     <link rel="stylesheet" href="../dist/output.css" />
   </head>
-  <body class="font-roboto bg-slate-300">
+  <body class="font-roboto bg-slate-50">
     <nav
-      class="bg-slate-300 flex justify-between items-center px-10 py-2"
+      class="flex justify-between items-center px-10 py-2"
     >
       <div class="flex justify-center items-center">
         <!--* hamburger -->
@@ -131,10 +131,10 @@
         <section class="py-5">
           <!--* subscribe, likes dislikes  -->
           <section class="flex flex-col gap-y-2">
-            <h2 class="text-lg font-semibold">Beautiful chords! (everyone should know)</h2>
+            <h2 class="text-lg font-medium">Beautiful chords! (everyone should know)</h2>
 
-            <!--* creator info - name subscribe, like/dislike more button -->
-            <section class="flex justify-between items-center border">
+            <!--* creator info - name, subscribe btn, like/dislike more button -->
+            <section class="flex justify-between items-center border-0">
               <!--* section left -->
               <section class="flex justify-between items- w-[40%]">
                 <div class="flex justify-start items-center">
@@ -156,7 +156,7 @@
                 </div>
                 <!--* subscribe button -->
                 <div class="flex justify-between items-center gap-x-3">
-                  <button class="text-sm bg-slate-200 hover:bg-slate-300 font-medium px-5 py-2 rounded-3xl">Subscribe</button>
+                  <button class="text-sm bg-slate-100 hover:bg-slate-200 font-medium px-5 py-2 rounded-3xl">Subscribe</button>
 
                   <img
                     class="w-5 h-5 cursor-pointer"
@@ -170,14 +170,14 @@
               <!--* section right -->
               <section class="flex justify-between items-center w-[40%]">
                 <!--* like/dislike -->
-                <div class="flex justify-between items-center gap-x-3">
-                  <span
+                <div class="border-r-red-400 border-blue-500 bg-slate-100 rounded-full overflow-hidden flex justify-between items-center">
+                  <span class="cursor-pointer h-[100%] border-r-2 px-5 py-2 pr-2 bg-slate-100 hover:bg-slate-200 flex justify-between items-center gap-x-2"
                     ><img
                       src="./img/video-details/like.png"
                       class="w-5 h-5"
                       alt="like button"
-                  /></span>
-                  169K<span
+                  /><span class="text-sm font-medium">169K</span></span> 
+                  <span class="cursor-pointer px-5 py-2 pl-2 bg-slate-100 hover:bg-slate-200"
                     ><img
                       src="img/video-details/dislike.png"
                       class="w-5 h-5"
@@ -185,16 +185,16 @@
                   /></span>
                 </div>
                 <!--* share -->
-                <div class="flex justify-between items-center gap-x-4">
+                <div class="flex justify-between items-center gap-x-2 bg-slate-100 hover:bg-slate-200 px-5 py-2 rounded-full cursor-pointer">
                   <img
                     src="img/video-details/share.png"
                     class="w-5 h-5"
                     alt="share button"
                   />
-                  <span>Share</span>
+                  <span class="text-sm font-normal">Share</span>
                 </div>
                 <!--* more -->
-                <div>
+                <div class="cursor-pointer bg-slate-100 hover:bg-slate-200 p-2 rounded-full">
                   <img
                     src="img/video-details/option.png"
                     class="w-5 h-5"
