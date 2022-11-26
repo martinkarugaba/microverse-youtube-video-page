@@ -128,18 +128,19 @@
           ></iframe>
         </div>
         <!--* video info  -->
-        <div class="py-4">
+        <section class="py-5">
           <!--* subscribe, likes dislikes  -->
-          <section>
-            <h2>Beautiful chords! (everyone should know)</h2>
+          <section class="flex flex-col gap-y-2">
+            <h2 class="text-lg font-semibold">Beautiful chords! (everyone should know)</h2>
 
-            <!--* creator name and subscribe button -->
-            <section>
+            <!--* creator info - name subscribe, like/dislike more button -->
+            <section class="flex justify-between items-center border">
               <!--* section left -->
-              <section>
-                <div>
+              <section class="flex justify-between items- w-[40%]">
+                <div class="flex justify-start items-center">
+                  <!--* creator display photo -->
                   <div
-                    class="h-[40px] w-[40px] rounded-full overflow-hidden"
+                    class="h-[50px] w-[50px] rounded-full overflow-hidden mr-2"
                   >
                     <img
                       class="object-contain cursor-pointer"
@@ -147,17 +148,18 @@
                       alt="creator image"
                     />
                   </div>
+                  <!--* channel info -->
                   <div>
-                    <h3>Paul Davids</h3>
-                    <p>3M subscribers</p>
+                    <h3 class="font-medium text-base">Paul Davids</h3>
+                    <p class="text-xs font-light text-slate-400">3M subscribers</p>
                   </div>
                 </div>
                 <!--* subscribe button -->
-                <div>
-                  <button>Subscribe</button>
+                <div class="flex justify-between items-center gap-x-3">
+                  <button class="text-sm bg-slate-200 hover:bg-slate-300 font-medium px-5 py-2 rounded-3xl">Subscribe</button>
 
                   <img
-                    class="w-5 h-5"
+                    class="w-5 h-5 cursor-pointer"
                     src="./img/icons/notification.png"
                     alt="bell"
                   />
@@ -166,9 +168,9 @@
               <!--* end section left -->
 
               <!--* section right -->
-              <section>
+              <section class="flex justify-between items-center w-[40%]">
                 <!--* like/dislike -->
-                <div>
+                <div class="flex justify-between items-center gap-x-3">
                   <span
                     ><img
                       src="./img/video-details/like.png"
@@ -183,7 +185,7 @@
                   /></span>
                 </div>
                 <!--* share -->
-                <div>
+                <div class="flex justify-between items-center gap-x-4">
                   <img
                     src="img/video-details/share.png"
                     class="w-5 h-5"
@@ -203,11 +205,11 @@
               <!--*end section right -->
             </section>
           </section>
-          <!--* description -->
+          <!--* video description -->
           <div></div>
           <!--* comments  -->
           <div></div>
-        </div>
+        </section>
       </section>
       <!--* recommended videos thumbnails container  -->
       <aside class="border-0 border-slate-600 w-[33%]">
