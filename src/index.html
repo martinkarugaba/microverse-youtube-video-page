@@ -19,9 +19,9 @@
     <title>Youtube Video Page</title>
     <link rel="stylesheet" href="../dist/output.css" />
   </head>
-  <body class="font-roboto">
+  <body class="font-roboto bg-slate-300">
     <nav
-      class="bg-slate-50 flex justify-between items-center px-10 py-2"
+      class="bg-slate-300 flex justify-between items-center px-10 py-2"
     >
       <div class="flex justify-center items-center">
         <!--* hamburger -->
@@ -129,38 +129,79 @@
         </div>
         <!--* video info  -->
         <div class="py-4">
-          <!--* subscribr, likes dislikes  -->
+          <!--* subscribe, likes dislikes  -->
           <section>
             <h2>Beautiful chords! (everyone should know)</h2>
 
             <!--* creator name and subscribe button -->
-            <div>
-              <div>
-                <div
-                  class="h-[40px] w-[40px] rounded-full overflow-hidden"
-                >
+            <section>
+              <!--* section left -->
+              <section>
+                <div>
+                  <div
+                    class="h-[40px] w-[40px] rounded-full overflow-hidden"
+                  >
+                    <img
+                      class="object-contain cursor-pointer"
+                      src="./img/video-details/philipp-wuthrich-5n3JP9WAJTs-unsplash (1).jpg"
+                      alt="creator image"
+                    />
+                  </div>
+                  <div>
+                    <h3>Paul Davids</h3>
+                    <p>3M subscribers</p>
+                  </div>
+                </div>
+                <!--* subscribe button -->
+                <div>
+                  <button>Subscribe</button>
+
                   <img
-                    class="object-contain h-[100%] w-[100%]"
-                    src="./img/video-details/philipp-wuthrich-5n3JP9WAJTs-unsplash (1).jpg"
-                    alt="creator image"
+                    class="w-5 h-5"
+                    src="./img/icons/notification.png"
+                    alt="bell"
                   />
                 </div>
-                <div>
-                  <h3>Paul Davids</h3>
-                  <p>3M subscribers</p>
-                </div>
-              </div>
-              <!--* subscribe button -->
-              <div>
-                <button>Subscribe</button>
+              </section>
+              <!--* end section left -->
 
-                <img
-                  class="w-6 h-6"
-                  src="./img/icons/notification.png"
-                  alt="bell"
-                />
-              </div>
-            </div>
+              <!--* section right -->
+              <section>
+                <!--* like/dislike -->
+                <div>
+                  <span
+                    ><img
+                      src="./img/video-details/like.png"
+                      class="w-5 h-5"
+                      alt="like button"
+                  /></span>
+                  169K<span
+                    ><img
+                      src="img/video-details/dislike.png"
+                      class="w-5 h-5"
+                      alt="dislike button"
+                  /></span>
+                </div>
+                <!--* share -->
+                <div>
+                  <img
+                    src="img/video-details/share.png"
+                    class="w-5 h-5"
+                    alt="share button"
+                  />
+                  <span>Share</span>
+                </div>
+                <!--* more -->
+                <div>
+                  <img
+                    src="img/video-details/option.png"
+                    class="w-5 h-5"
+                    alt="more button"
+                  />
+                </div>
+              </section>
+              <!--*end section right -->
+            </section>
           </section>
           <!--* description -->
           <div></div>
