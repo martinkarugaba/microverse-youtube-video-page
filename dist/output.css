@@ -741,6 +741,14 @@ video {
        column-gap: 0.5rem;
 }
 
+.gap-y-6{
+  row-gap: 1.5rem;
+}
+
+.gap-y-5{
+  row-gap: 1.25rem;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -767,6 +775,10 @@ video {
 
 .rounded{
   border-radius: 0.25rem;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
 }
 
 .rounded-l-3xl{
@@ -972,6 +984,10 @@ video {
   font-weight: 400;
 }
 
+.font-bold{
+  font-weight: 700;
+}
+
 .tracking-tighter{
   letter-spacing: -0.05em;
 }
@@ -1003,6 +1019,11 @@ video {
 .hover\:bg-slate-200:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate-100:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .focus\:border-0:focus{
