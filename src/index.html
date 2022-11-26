@@ -140,7 +140,7 @@
               <!--* section left -->
               <section class="flex justify-between items- w-[40%]">
                 <div class="flex justify-start items-center">
-                  <!--* creator display photo -->
+                  <!--* creator dp -->
                   <div
                     class="h-[50px] w-[50px] rounded-full overflow-hidden mr-2"
                   >
@@ -229,7 +229,9 @@
             </section>
           </section>
           <!--* video description -->
-          <section class="p-4 bg-slate-50 hover:bg-slate-100 cursor-pointer rounded-lg">
+          <section
+            class="p-4 bg-slate-50 hover:bg-slate-100 cursor-pointer rounded-lg"
+          >
             <p class="text-sm font-medium">
               <span>3.3M views </span><span>2 years ago</span>
             </p>
@@ -242,7 +244,53 @@
             <p class="text-sm font-medium">show more</p>
           </section>
           <!--* comments  -->
-          <div></div>
+          <div class="flex justify-start items-center gap-y-8">
+            <p><span>3470</span> Comments</p>
+            <!--* sort -->
+            <div class="flex justify-between items-center ml-4">
+              <img
+                class="w-6 h-6"
+                src="./img/video-details/sort.png"
+                alt="sort icon"
+              />
+              <p class="text-sm font-normal ml-3">Sort by</p>
+            </div>
+          </div>
+
+          <!--* input comment -->
+          <div
+            class="flex justify-start items-center gap-x-4"
+          >
+          <!--* commenters dp -->
+            <div
+              class="h-[50px] w-[50px] rounded-full overflow-hidden mr-2"
+            >
+              <img
+                class="object-contain"
+                src="./img/video-details/etty-fidele-UBJsHb3HLv8-unsplash.jpg"
+                alt="profile img"
+              />
+            </div>
+
+            <!--* comment container-->
+            <div class="w-[90%]">
+              <!--* top -->
+              <input
+                type="text"
+                class="text-sm self-start w-[90%] bg-transparent p-2 focus:border-b-2 focus:border-neutral-900"
+                placeholder="Add a comment"
+              />
+              <!--* bottom -->
+              <div class="flex justify-between items-center w-full mt-8">
+                <img class="w-5 h-5" src="./img/video-details/happy.png" alt="emojis">
+
+                <div>
+                  <button class="text-sm mr-6 font-medium px-5 py-2 rounded-full bg-slate-100 hover:bg-slate-200">Cancel</button>
+                  <button class="text-sm font-medium px-5 py-2  rounded-full bg-slate-100 hover:bg-slate-200">Comment</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </section>
       <!--* recommended videos thumbnails container  -->
